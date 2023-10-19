@@ -24,10 +24,6 @@ function ProductsList() {
     //  console.log(product);
     dispatch(addToCart(product));
   };
-  // const dispatch = useDispatch();
-  //  const addProductToCart = (product) => {
-  //    //  console.log(product);
-  //   dispatch(addToCart(product));
 
   const increaseCart = () => {
     dispatch(increaseCounter());
